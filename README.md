@@ -9,6 +9,8 @@ ERROR:  at or near "columns": syntax error
 
 PostgreSQL 18.6 runs the same query and returns one row for each element of the array, `1` and `2`.
 
+Reported upstream: https://github.com/dolthub/doltgresql/issues/3331
+
 ## Reproduce it
 
 You need Docker and a POSIX shell: Linux, macOS, or Windows with WSL. The first run downloads the two images.
